@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "a",
+            "request": "launch",
+            "mainClass": "a",
+            "projectName": "Pharmeasy_736ed279",
+            "vmArgs": "--module-path \"C:/java/javafx-sdk-22/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path \"C:/java/javafx-sdk-22/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "FXMLLogin",
+            "request": "launch",
+            "mainClass": "FXMLLogin",
+            "projectName": "Pharmeasy_736ed279",
+            "vmArgs": "--module-path \"C:/java/javafx-sdk-22/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "window",
+            "request": "launch",
+            "mainClass": "window",
+            "projectName": "Pharmeasy_736ed279",
+            "vmArgs": "--module-path \"C:/java/javafx-sdk-22/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
